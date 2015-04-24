@@ -2,7 +2,7 @@ var http = require('http'),
   moment = require('moment'),
   port = process.env.PORT || 9000
 
-var version = 8
+var version = 9
 
 http.createServer(function(req, res) {
   console.info('incoming request for version %d at %s!', version, moment().format('MMMM Do YYYY, h:mm:ss a'))
