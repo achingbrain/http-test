@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/achingbrain/http-test",
   "dependencies": {
+    "freeport": "^1.0.5",
     "moment": "^2.0"
   }
 }
